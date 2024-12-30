@@ -1,0 +1,74 @@
+{
+  "id": "dnd-thieves-gallery",
+  "title": "Thieves' Gallery",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>A handful of characters from the film <i>Dungeons &amp; Dragons: Honor Among Thieves</i> are presented here as NPCs you can include in your D&amp;D campaigns.</p>",
+  "url": "https://github.com/valGavin/dnd-thieves-gallery",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-thieves-gallery/assets/art/thieves-gallery-cover.webp",
+      "thumbnail": "modules/dnd-thieves-gallery/assets/art/thieves-gallery-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "tg-articles",
+      "label": "Thieves' Gallery",
+      "path": "packs/tg-articles",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "tg-creatures",
+      "label": "Creatures",
+      "path": "packs/tg-creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Thieves' Gallery",
+      "color": "#cfb774fe",
+      "sorting": "m",
+      "packs": [
+        "tg-articles",
+        "tg-creatures"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "TG": "Thieves' Gallery"
+      }
+    }
+  }
+}

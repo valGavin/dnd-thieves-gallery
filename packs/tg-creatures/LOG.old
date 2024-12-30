@@ -1,0 +1,12 @@
+2024/12/30-05:25:49.396358 ffff7e7cf040 Recovering log #4
+2024/12/30-05:25:49.401359 ffff7e7cf040 Delete type=3 #2
+2024/12/30-05:25:49.401408 ffff7e7cf040 Delete type=0 #4
+2024/12/30-07:32:20.483783 ffff7d58d040 Level-0 table #9: started
+2024/12/30-07:32:20.508636 ffff7d58d040 Level-0 table #9: 1804684 bytes OK
+2024/12/30-07:32:20.511362 ffff7d58d040 Delete type=0 #7
+2024/12/30-07:34:22.373814 ffff7d58d040 Compacting 1@1 + 1@2 files
+2024/12/30-07:34:22.383305 ffff7d58d040 Generated table #10@1: 117 keys, 135269 bytes
+2024/12/30-07:34:22.383327 ffff7d58d040 Compacted 1@1 + 1@2 files => 135269 bytes
+2024/12/30-07:34:22.385161 ffff7d58d040 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/30-07:34:22.385354 ffff7d58d040 Delete type=2 #5
+2024/12/30-07:34:22.385603 ffff7d58d040 Delete type=2 #9
